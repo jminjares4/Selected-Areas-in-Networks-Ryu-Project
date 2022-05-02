@@ -1,3 +1,6 @@
+# Author: Jesus Minjares
+#         Update Ryu sample application as a Layer 2 switch
+
 # Copyright (C) 2011 Nippon Telegraph and Telephone Corporation.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,11 +26,11 @@ from ryu.lib.packet import ethernet
 from ryu.lib.packet import ether_types
 
 
-class SimpleSwitch13(app_manager.RyuApp):
+class Layer2Switch(app_manager.RyuApp):
     OFP_VERSIONS = [ofproto_v1_3.OFP_VERSION]
 
     def __init__(self, *args, **kwargs):
-        super(SimpleSwitch13, self).__init__(*args, **kwargs)
+        super(Layer2Switch, self).__init__(*args, **kwargs)
         self.mac_to_port = {}
 
     @set_ev_cls(ofp_event.EventOFPSwitchFeatures, CONFIG_DISPATCHER)
