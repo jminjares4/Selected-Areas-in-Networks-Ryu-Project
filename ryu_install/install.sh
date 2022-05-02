@@ -1,12 +1,9 @@
 # install from pip
-# pip install ryu
+pip install ryu
 
-# install from source
-# git clone https://github.com/faucetsdn/ryu.git
 # Update git submodule
 git submodule update --init --recursive
 cd ryu; pip install .
-
 
 # Optional Requirements
 pip install -r tools/optional-requires
