@@ -8,7 +8,7 @@ ryu-manager filename.py
 
 ```
 
-## *Dumpy Application*
+## *Dummy Application*
 ```.py
 # Dummy application to demostrate ryu-applications
 from ryu.base import app_manager
