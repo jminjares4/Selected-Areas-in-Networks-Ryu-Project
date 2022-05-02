@@ -6,22 +6,17 @@ Develop a deep knowledge of the RYU network operating system.
 2. An in-class presentation of RYU and demonstration of one of the configurations.
 
 ## **Table of Contents**
-* Overview of RYU
-* Installation of RYU
-  * [Quick Installation Guide](https://github.com/jminjares4/Selected-Areas-in-Networks/tree/main/Final-Project/ryu_install)
-* First Application
-  * [Getting started](https://github.com/jminjares4/Selected-Areas-in-Networks/tree/main/Final-Project/First_App)
-* Custom Configuration with RYU
+* [First Application](https://github.com/jminjares4/Selected-Areas-in-Networks-Ryu-Project/tree/main/First_App) :one:
+* [Mininet Topologies](https://github.com/jminjares4/Selected-Areas-in-Networks-Ryu-Project/tree/main/mininet-topo) :link:
+  * L2 and L3 switches python and bash scripts
+* [Ryu](https://github.com/faucetsdn/ryu/tree/537f35f4b2bc634ef05e3f28373eb5e24609f989) :dragon:
+  * Git submodule to the latest commit
+* Ryu Installation :hammer:
+  * [Quick Installation Guide](https://github.com/jminjares4/Selected-Areas-in-Networks-Ryu-Project/tree/main/ryu_install)
+* [Ryu Applications](https://github.com/jminjares4/Selected-Areas-in-Networks-Ryu-Project/tree/main/ryu-applications) :computer:
+* [Topology images](https://github.com/jminjares4/Selected-Areas-in-Networks-Ryu-Project/tree/main/Topology-images) :chart_with_upwards_trend:
+* [Tutorials](https://github.com/jminjares4/Selected-Areas-in-Networks-Ryu-Project/tree/main/Tutorials) :pencil:
 
-## Todo
-- [x] Overview of RYU
-  - [ ] More depth of RYU
-- [x] Install guide for RYU
-  - [x] Create markdown file
-- [x] First application development and testing
-  - [x] Create Markdown file
-- [ ] Custom configurations
-- [ ] New Features?
 ## **Author:**
 * [**Jesus Minjares**](https://github.com/jminjares4)<br>
   * Master of Science in Computer Engineering<br>
