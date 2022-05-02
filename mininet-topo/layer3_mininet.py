@@ -1,17 +1,4 @@
-"""
-Author: Jesus Minjares
-Assignment 4:
-Data: 03-30-2022
-
-Assignment 4 Python Script: Create a network that consists of 2 subnets joined
-                            by switch. Each subnet will have a total of 2 hosts
-                            and these hosts will be connected to the same switch,
-                            which will interact with the hosts by using Layer 2
-                            protocols. Both subnet's switches will be connected to
-                            a third switch, which will use Layer 3 protocol.
-                            The task is to be able to ping all of the hosts and test
-                            the bandwidth of each of the host pairs successfully.
-"""
+# Author: Jesus Minjares
 
 # Import Mininet modules
 from mininet.net import Mininet
