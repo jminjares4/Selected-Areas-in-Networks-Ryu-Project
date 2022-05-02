@@ -70,6 +70,7 @@ sudo mn mininet-topo/layer2.sh
 ```
 
 ## Topology
+Run [topology](TopologyWithRyu.md) to generate graph. Here is the graph of the network in **layer2.sh** script.
 <img src="../Topology-images/Layer%202%20Topology.png">
 
 
