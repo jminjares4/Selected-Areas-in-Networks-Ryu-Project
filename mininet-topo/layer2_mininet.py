@@ -2,7 +2,6 @@ from mininet.net import Mininet
 from mininet.cli import CLI
 from mininet.node import RemoteController
 
-
 net = Mininet()
 
 h1 = net.addHost(name='h1', mac='00:00:00:00:00:01',  ip='192.168.1.11', prefixLen=24)
