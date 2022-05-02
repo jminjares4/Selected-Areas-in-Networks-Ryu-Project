@@ -1,1 +1,1 @@
-sudo mn --controller remote --topo tree,depth=3c
+sudo mn --controller remote --topo tree,depth=3
