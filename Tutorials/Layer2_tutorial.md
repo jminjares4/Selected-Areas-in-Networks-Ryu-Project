@@ -24,17 +24,47 @@ The packages list can be overwhelming, however the most importants ones are list
 |**ofproto_v1_3** | OpenFlow version |
 |**packet**<br>**ethernet**<br>**ether_types** | packet processing library|
 
-
 ## Create Class
+When creating an ryu application class, always pass the `app_manager.RyuApp`.
 ```python
-class Layer2Switch(app_manager.RyuApp):
+class Layer2Switch(app_manager.RyuApp): 
 ```
+
 ## Set the OpenFlow version
+Set the OpenFlow version that the application will use.
 ```python
 OFP_VERSIONS = [ofproto_v1_3.OFP_VERSION]
 ```
 ## Define class constructor
+For the constructor of the class, you must user `super` to inheritance Ryu properties.
 ```python
 def __init__(self, *args, **kwargs):
 super(SimpleSwitch13, self).__init__(*args, **kwargs)
 ```
+
+## Add Events 
+In a Ryu controller, you could add events that you would want to listen too. With the use of decocrators in python we can add functionality to the controller: `@set_ev_cls`. For instance, the code below will be trigger for any event at the OpenFlow switch. 
+```python
+ @set_ev_cls(ofp_event.EventOFPSwitchFeatures, CONFIG_DISPATCHER)
+def switch_features_handler(self, ev):
+```
+Next, we will add another event to listen to the packets that are being received. With the same functionality of the previous event, this `_packet_in_handler` function will be trigger once packets are being captured.
+```python
+@set_ev_cls(ofp_event.EventOFPPacketIn, MAIN_DISPATCHER)
+def _packet_in_handler(self, ev):
+```
+
+## Run Ryu Application
+This section will take in consideration that you know how to use, and run Ryu. I will provide installation and getting started instructions.
+* [Installation](../ryu_install/README.md)
+* [Getting Started with Ryu](GettingStarted.md)
+
+```bash
+ryu-manager layer2.py
+```
+
+## **Author:**
+* [**Jesus Minjares**](https://github.com/jminjares4)<br>
+  * Master of Science in Computer Engineering<br>
+[![Outlook](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white&style=flat)](mailto:jminjares4@miners.utep.edu) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat)](https://www.linkedin.com/in/jesus-minjares-157a21195/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&style=flat)](https://github.com/jminjares4)
