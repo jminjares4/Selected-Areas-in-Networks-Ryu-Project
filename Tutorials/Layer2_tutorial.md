@@ -69,6 +69,10 @@ However, we will still need a topology for the controller to have functionality.
 sudo mn mininet-topo/layer2.sh
 ```
 
+## Topology
+<img src="../Topology-images/Layer%202%20Topology.png">
+
+
 ## **Author:**
 * [**Jesus Minjares**](https://github.com/jminjares4)<br>
   * Master of Science in Computer Engineering<br>
