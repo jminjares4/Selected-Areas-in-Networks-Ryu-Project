@@ -12,8 +12,8 @@ Develop a deep knowledge of the RYU network operating system.
   * L2 and L3 switches python and bash scripts
 * [Ryu](https://github.com/faucetsdn/ryu/tree/537f35f4b2bc634ef05e3f28373eb5e24609f989) :dragon:
   * Git submodule to the latest commit
-* Ryu Installation :hammer:
-  * [Quick Installation Guide](https://github.com/jminjares4/Selected-Areas-in-Networks-Ryu-Project/tree/main/ryu_install)
+* [Ryu Installation](https://github.com/jminjares4/Selected-Areas-in-Networks-Ryu-Project/tree/main/ryu_install) :hammer:
+  * Quick Installation Guide
 * [Ryu Applications](https://github.com/jminjares4/Selected-Areas-in-Networks-Ryu-Project/tree/main/ryu-applications) :computer:
   * Ryu custom applications
 * [Topology images](https://github.com/jminjares4/Selected-Areas-in-Networks-Ryu-Project/tree/main/Topology-images) :chart_with_upwards_trend:
