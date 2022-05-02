@@ -1,14 +1,14 @@
-# **RYU First Application** :dragon:
+# **Ryu First Application** :dragon:
 Ryu applications are just python scripts. Therefore, they are easy to developed and test with the ability of reconfiguration.
 
-## **How to run RYU-Applications**
+## **How to run Ryu-Applications**
 As previously mention, Ryu applications are python scripts. However, inorder to run application `ryu-manager`.
 ```bash
 ryu-manager filename.py
 
 ```
 
-## *Dummpy Application*
+## *Dumpy Application*
 ```.py
 # Dummy application to demostrate ryu-applications
 from ryu.base import app_manager
