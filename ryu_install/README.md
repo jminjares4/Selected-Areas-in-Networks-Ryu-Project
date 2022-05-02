@@ -21,9 +21,9 @@ chmod +x ryu_install/install.sh
 ```bash
 pip install ryu
 ```
-2. Install from source
+2. Update gitsubmodule
 ```bash
-git clone https://github.com/faucetsdn/ryu.git
+git submodule update --init --recursive
 cd ryu; pip install .   
 ```
 The final step is the install the optional dependencies for application that require:
