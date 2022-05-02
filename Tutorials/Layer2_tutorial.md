@@ -55,12 +55,18 @@ def _packet_in_handler(self, ev):
 ```
 
 ## Run Ryu Application
-This section will take in consideration that you know how to use, and run Ryu. I will provide installation and getting started instructions.
+This section will take in consideration that you know how to use, and run *Ryu* as well as *Mininet*. I will provide installation and getting started instructions.
 * [Installation](../ryu_install/README.md)
 * [Getting Started with Ryu](GettingStarted.md)
 
+First, you must run the ryu application that hold the layer 2 switch.
 ```bash
 ryu-manager layer2.py
+```
+However, we will still need a topology for the controller to have functionality. We would be using `Mininet` to create the different topologies to test.  
+
+```bash
+sudo mn mininet-topo/layer2.sh
 ```
 
 ## **Author:**
