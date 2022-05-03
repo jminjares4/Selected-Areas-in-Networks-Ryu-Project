@@ -45,6 +45,12 @@ if eth.ethertype == ether_types.ETH_TYPE_IP:
       self.add_flow(datapath, 1, match, actions)
 ```
 
+## Topology
+Run [topology](TopologyWithRyu.md) to generate graph. Here is the graph of the network in **layer3.sh** script.
+
+![alt text](https://github.com/jminjares4/Selected-Areas-in-Networks-Ryu-Project/blob/main/Topology-images/Layer%203%20Topology.png)
+
+
 ## **Author:**
 * [**Jesus Minjares**](https://github.com/jminjares4)<br>
   * Master of Science in Computer Engineering<br>
