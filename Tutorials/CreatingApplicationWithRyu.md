@@ -55,14 +55,15 @@ This section will take in consideration that you know how to use, and run *Ryu* 
 * [Installation](../ryu_install/README.md)
 * [Getting Started with Ryu](GettingStarted.md)
 
-First, you must run the ryu application that hold the layer 2 switch.
+First, you must run the ryu application that hold the desire application:
 ```bash
-ryu-manager layer2.py
+ryu-manager application.py
 ```
 However, we will still need a topology for the controller to have functionality. We would be using `Mininet` to create the different topologies to test.  
 
 ```bash
-sudo mn mininet-topo/layer2.sh
+chmod +x mininet_topo.sh
+./mininet_topo.sh
 ```
 
 ## **Author:**

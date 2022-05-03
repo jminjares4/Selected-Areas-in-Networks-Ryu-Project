@@ -1,9 +1,9 @@
 # Selected Areas in Communication Network Project
 
-Develop a deep knowledge of the RYU network operating system.
+Develop a deep knowledge of the Ryu network operating system.
 *Deliverables:*
-1. A written tutorial on RYU that walks readers through two or more configurations of RYU to control routing in a network with at least 4 subnets.
-2. An in-class presentation of RYU and demonstration of one of the configurations.
+1. A written tutorial on Ryu that walks readers through two or more configurations of Ryu to control routing in a network with at least 4 subnets.
+2. An in-class presentation of Ryu and demonstration of one of the configurations.
 
 ## **Table of Contents**
 * [First Application](https://github.com/jminjares4/Selected-Areas-in-Networks-Ryu-Project/tree/main/First_App) :page_facing_up:

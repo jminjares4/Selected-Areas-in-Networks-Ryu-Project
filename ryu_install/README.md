@@ -1,6 +1,6 @@
-# **RYU Installation Setup** :dragon:
+# **Ryu Installation Setup** :dragon:
 
-The installation for RYU Network Operating System (NOS) is straightforward.
+The installation for Ryu Network Operating System (NOS) is straightforward.
 I will be listing the most popular ones.
 
 # **Prerequisites**
@@ -10,7 +10,7 @@ apt install gcc python-dev libffi-dev libssl-dev libxml2-dev libxslt1-dev zlib1g
 ```
 
 # **Quick Setup**
-I have developed a script to install all the dependencies and RYU. The script will install RYU from source. Here is the set to install RYU.
+I have developed a script to install all the dependencies and Ryu. The script will install Ryu from git submodule. Here is the set to install Ryu.
 ```bash
 chmod +x ryu_install/install.sh
 ./install.sh 
@@ -21,7 +21,7 @@ chmod +x ryu_install/install.sh
 ```bash
 pip install ryu
 ```
-2. Update gitsubmodule
+2. Update git submodule
 ```bash
 git submodule update --init --recursive
 cd ryu; pip install .   
@@ -32,7 +32,7 @@ The final step is the install the optional dependencies for application that req
  * BGP speaker (SSH console) 
  * Zebra protocol service (database)     
 ```bash
-# RYU must be install from source
+# Ryu must be install from source
 pip install -r tools/optional-requires
 ```
 
